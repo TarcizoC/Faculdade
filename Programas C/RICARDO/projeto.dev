@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() 
+{
+	int P,a;
+
+	printf("Insira o numero de particulas:");
+	scanf("%d",&P);
+	int x[P];
+	
+	srand(time(NULL));
+	for(a=0;a<P;a++)
+	{
+		x[a]=rand()%1000-500;
+	}
+
+	for(a=0;a<P;a++)
+	{
+		printf("%d",x[a]);
+	}
+	
+	return 0;
+}
