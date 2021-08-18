@@ -1,3 +1,3 @@
 x = "Linda"
 
-print("Computador a Thais é ????? \n",x)
+print("Computador, a Thais é ????? \n",x)
