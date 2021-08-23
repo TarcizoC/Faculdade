@@ -102,7 +102,7 @@
 //e) Obtenha a inversa da matriz A.
 // A matriz escolhida para o experimento nao é inversivel ja que o determinante dela é = 0
 // Mas o comando para a inversão de matrizes é:
-    inv(A)
+    //inv(A)
 
 //f) Obtenha a divis˜ao pela esquerda entre as matrizes A e C (A\C).
     A\C 
@@ -194,6 +194,27 @@ Operator / : Error -1 not yet managed.
    4.   4.
 */
 //b) Obtenha a matriz A3 acrescentando uma linha na matriz A contendo os quatro primeiros elementos do vetor x.
+
+
+
+//4.7 Fun¸c˜oes
+
+//a) Crie uma fun¸c˜ao que receba como entrada um vetor t e gere como sa´ıda um vetor pcom a seguinte rela¸c˜ao p = t 2 + sen(2t) + 50.
+    function[p]=funcTeste(t)  
+    
+    p =t^2+sin(2*t)+50;
+    
+    end
+
+//b) Obs.: Abra um novo Script e chame a fun¸c˜ao a partir do arquivo da pr´atica. Nomeie o arquivo .sci como funcTeste.
+    [p1] = funcTeste(t1)
+    [p2] = funcTeste(t2)
+
+//4.8 Gr´aficos
+
+//a) Gere um gr´afico contendo os dados de p1 como fun¸c˜ao de t1 obtidos na Se¸c˜ao 4.7 com marcadores * em vermelho em cada ponto.
+
+    plot(p1,'r:*')
 
 
 
