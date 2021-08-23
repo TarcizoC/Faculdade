@@ -216,9 +216,22 @@ Operator / : Error -1 not yet managed.
 
     plot(p1,'r:*')
 
+//b) Na mesma figura, sobreponha um gr´afico de linha verde cont´ınua contendo os dados de p2 como fun¸c˜ao de t2 obtidos na Se¸c˜ao 4.7.
 
 
 
+//c) Adicione um t´ıtulo para o gr´afico.
+    title("Grafico das funçoes P(t)")
+
+//d) Adicione nomes nos eixos x e y do gr´afico.
+    xlabel("tempo[s]")
+    ylabel("Tensão[V]")
+
+//e) Adicione uma legenda no gr´afico identificando os dois grupos de dados ilustrados.
+    legend("p1","p2")
+
+//f) Coloque a grade no gr´afico.
+    xgrid()
 
 
 
