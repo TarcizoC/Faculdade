@@ -33,8 +33,8 @@
     format('e',21);x,A,z,C
 
 //e) Apresente as vari´aveis x, A, z e C no formato rat.
-   // nao entendi )
-
+    [n,d] = rat(x), [n,d] = rat(A), [n,d] = rat(z), [n,d] = rat(C)
+   
 //4.3 N´umeros complexos
 
 //1. Crie um vetor com n´umeros complexos: k = [3 + 5i, 2 − 10j]
